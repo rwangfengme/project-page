@@ -95,7 +95,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #ff7878
+	background: #0096DE;
 }
 
 .navbar-inverse .navbar-brand {
@@ -257,7 +257,7 @@ a:after {
 }
 
 .w i {
-	color: #ff7878;
+	color: #0096DE;
 	font-size: 30px;
 }
 
@@ -409,4 +409,11 @@ a:after {
     background: #ff7878;
 }
 
+#description{
+    font-size: 20px;
+    margin: 100px auto 0 auto;
+    font-family: "Raleway";
+    color:#F2F2F2;
+    max-width: 800px;
+}
 
