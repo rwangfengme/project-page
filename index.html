@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Dart Reminder</title>
+    <title>Dart Rem!</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -36,11 +36,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Dart Reminder</a>
+          <a class="navbar-brand" href="#">Dart Rem!</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://drive.google.com/open?id=0B0TcA6fQsb5WbUdKWHV6NTNnaHM"><i class="fa fa-cloud-download"></i> DOWNLOAD OUR APP</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-cloud-download"></i> DOWNLOAD OUR APP</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -94,15 +94,7 @@
 				<p>Reminding your children to put more clothes on in a cold day, you can create a reminder for them. Shared reminders will shown in your friends' schedule list, as a mutual reminder.</p>
 			</div><!-- col-lg-4 -->
 
-			<div class="col-lg-4">
-				<i class="fa fa-user"></i>
-				<h4>MEMBERS</h4>
-				<p>
-					<span>Renjie Zhu</span><br/>
-					<span>Jing Ge</span><br/>
-					<span>Feng Wang</span>
-				</p>
-			</div><!-- col-lg-4 -->
+			<!-- col-lg-4 -->
 		</div><!-- row -->
 	</div><!-- container -->
 
@@ -157,28 +149,33 @@
 	</div>
 
 
-	<!-- <div id="lg">
+	<div id="lg">
 		<div class="container">
 			<div class="row centered">
-				<h4>OUR AWESOME CLIENTS</h4>
-				<div class="col-lg-2 col-lg-offset-1">
-					<img src="assets/img/c01.gif" alt="">
+				<h4>TEAM</h4>
+				<div class="col-lg-9 col-lg-offset-3 team-member">
+						<img class="avatar" src="assets/img/avatar1.png" alt="">
+						<span class="member-name">Renjie Zhu</span>
+					
+					<span class="member-worklad">
+							Backend(Datastore, Sync & share) / Location Related Functions 
+						</span>
 				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/c02.gif" alt="">
+				<div class="col-lg-9 col-lg-offset-3 team-member">
+					<div class="col-log-4">
+						<img class="avatar" src="assets/img/avatar2.png" alt="">
+						<span class="member-name">Jing Ge</span>
+						<span class="member-worklad">Time Based Reminder / Local Database / User Login System</span>
+					</div>
 				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/c03.gif" alt="">
-				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/c04.gif" alt="">
-				</div>
-				<div class="col-lg-2">
-					<img src="assets/img/c05.gif" alt="">
+				<div class="col-lg-9 col-lg-offset-3 team-member">
+					<img class="avatar" src="assets/img/avatar3.png" alt="">
+					<span class="member-name">Feng Wang</span>
+					<span class="member-worklad">UI layout / Activity Recognition</span>
 				</div>
 			</div>
 		</div>
-	</div> --> <!-- dg -->
+	</div> <!-- dg -->
 	
 	
 	<!-- <div id="r">
@@ -196,13 +193,37 @@
 	<!-- FOOTER -->
 	<div id="f">
 		<div class="container">
-			<div class="row centered"><!-- 
-				<a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-dribbble"></i></a> -->
-		
+			<div class="row centered">
+				<a class="external-link" href="https://docs.google.com/presentation/d/1rmnyAdrKmUAtkqi-xKoFEk7KPP5ZCsKAUMuTLOAOVJA/edit#slide=id.g10ce42f33b_1_482">See more on our presentation</a>
+				<!-- <a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a class="external-link" href="#"><i class="fa fa-github"></i></a> -->
 			</div><!-- row -->
 		</div><!-- container -->
 	</div><!-- Footer -->
 
+
+	<div id="myModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">Installation Hint</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p style="color:red;font-style:bold;">1. If your phone already installed any Dartmouth MyRuns Apps, please remove them first!</p>
+	        <p style="color:black;font-style:bold;">2. Our Backend Schedule table - <a style="color:#0096DE;" href="https://4-dot-lexical-micron-124201.appspot.com/schedule_query_result.jsp">link</a></p>
+	        <p style="color:black;font-style:bold;">3. Our user account list - <a style="color:#0096DE;" href="https://4-dot-lexical-micron-124201.appspot.com/user_query_result.jsp">link</a></p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal" onclick="document.location.href='https://drive.google.com/open?id=0B0TcA6fQsb5WZF8zUWp2Uk1YWnc'"><a style="color:#0096DE;" href="#">Download</a></button>
+	      </div>
+	    </div>
+
+	  </div>
+	</div>
 
 	<!-- MODAL FOR CONTACT -->
 	<!-- Modal -->

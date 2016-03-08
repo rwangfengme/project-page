@@ -417,3 +417,30 @@ a:after {
     max-width: 800px;
 }
 
+.avatar{
+  height: 80px;
+  width: 80px;
+}
+
+.team-member{
+    text-align: left;
+    padding: 15px 0;
+}
+
+.member-name{
+    font-style: bold;
+    font-size: 24px;
+    color:#000000;
+    padding: 0 10px;
+}
+
+.member-workload{
+    font-size: 16px;
+    color:#000000;
+}
+
+.external-link{
+    font-style: bold;
+    font-size: 24px;
+    color:#0096DE;
+}
